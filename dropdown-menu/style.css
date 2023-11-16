@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  max-height: 800px;
+}
+
+* {
+  color: white;
+  font-size: 2rem;
+}
+
+/* line 13 and 18 making links line up*/
+#dropdown-menu {
+  display: inline-block;
+  position: relative;
+}
+
+#dropdown-menu:hover #link-container {
+  display: block;
+  position: absolute;
+}
+
+#link-container {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
